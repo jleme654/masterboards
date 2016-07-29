@@ -1,0 +1,47 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:p="http://primefaces.org/ui">
+
+    <f:view contentType="text/html">
+        <h:head>
+            <f:facet name="first">
+                <meta content='text/html; charset=UTF-8' http-equiv="Content-Type"/>
+                <title>MBoards</title>
+            </f:facet>
+        </h:head>
+
+        <h:body>
+
+            <p:layout fullPage="true">
+
+                <p:layoutUnit position="north" size="100" resizable="true" closable="true" collapsible="true">
+                    <h3>MBoards Assistencia Tecnica</h3>
+                </p:layoutUnit>
+
+                <p:layoutUnit position="center">
+                    <h6>Endereço: a, R. dos Andradas, 356 - Santa Ifigênia, São Paulo - SP, 01208-000 Telefone: (11) 3852-1250</h6>
+                </p:layoutUnit>
+
+                <p:layoutUnit position="south" size="100" closable="true" collapsible="true">
+                    <h6>@Desenvolvimento - Julio Leme - 2016-07-28</h6>
+                </p:layoutUnit>
+
+                <p:layoutUnit position="west" size="275" header="Menu" collapsible="true">
+                    <p:menu>
+                        <p:submenu label="Funcoes">
+                            <p:menuitem value="Lista de Clientes" url="clientes.xhtml" />
+                            <p:menuitem value="Cadastro de Clientes" url="cadastroCliente.xhtml" />
+                       
+                        </p:submenu>
+                    </p:menu>
+                </p:layoutUnit>
+            </p:layout>
+
+        </h:body>
+
+    </f:view>
+</html>
+
